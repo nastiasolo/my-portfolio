@@ -61,6 +61,11 @@
 
 .hero {
   margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+  gap: 15px;
 }
 
 .hero__header__title {
@@ -72,10 +77,34 @@
   /* -webkit-text-stroke: 1px #01ffff;
   text-stroke: 1px #01ffff; */
   text-shadow: 5px 5px 5px rgba(1, 255, 255, 0.5);
+  margin: 0;
 }
 
 .hero__header__text {
   text-align: end;
+  margin: 0;
+}
+
+.cv__button {
+  display: flex;
+  gap: 5px;
+  background-color: transparent;
+  color: #ff66c4;
+  padding: 10px 25px;
+  border: 1px solid #ff66c4;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: "SourceCodePro", sans-serif;
+  transition: box-shadow 0.3s ease;
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.cv__button:hover {
+  background-color: ff66c4;
+  box-shadow: 0 0 30px rgb(255, 102, 196, 0.7);
 }
 
 .content {
