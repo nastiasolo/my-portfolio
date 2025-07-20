@@ -19,3 +19,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const themeButton = document.querySelector(".hero__light-button");
+  const htmlElement = document.documentElement;
+
+  // Проверяем сохраненную тему
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme) {
+    htmlElement.setAttribute("data-theme", savedTheme);
+  }
+
+  themeButton.addEventListener("click", () => {
+    let currentTheme = htmlElement.getAttribute("data-theme");
+    let newTheme = currentTheme === "light" ? "dark" : "light";
+
+    htmlElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme); // Сохраняем тему
+  });
+});

@@ -1,6 +1,5 @@
-  <!DOCTYPE html>
-  <html lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,10 +14,8 @@
   <body class="page">
     <header class="header">
       <div class="hamburger__nav">
-      <button class="hamburger" aria-label="Toggle navigation">
-        ☰
-      </button>
-    </div>
+        <button class="hamburger" aria-label="Toggle navigation">☰</button>
+      </div>
       <nav class="header__menu">
         <ul class="header__menu-list">
           <li class="header__menu-item">
@@ -42,11 +39,21 @@
         </ul>
       </nav>
       <div class="hero">
-        <h1 class="hero__header__title">Anastasia Solodova</h1>
-        <p class="hero__header__text">frontend developer</p>
-        <a href="./public/CV.pdf" target="_blank">
-          <button class="cv__button">Download CV</button>
-        </a>
+        <div class="hero__container">
+          <button class="hero__light-button">
+            <img
+              class="hero__light-img"
+              src="./images/light-bulb-svgrepo-com.svg"
+            />
+          </button>
+        </div>
+        <div class="hero__container">
+          <h1 class="hero__header__title">Anastasia Solodova</h1>
+          <p class="hero__header__text">frontend developer</p>
+          <a href="./public/CV.pdf" target="_blank">
+            <button class="cv__button">Download CV</button>
+          </a>
+        </div>
       </div>
     </header>
     <main class="content">
@@ -54,18 +61,22 @@
         <h2 class="heading content__title">&lt;About me/&gt;</h2>
         <div class="content__description">
           <p class="content__description-text">
-            I am originally from Russia. I moved to Denmark <span class="pink">3.5</span> years ago on a
+            I moved to Denmark <span class="accent">4</span> years ago on a
             family reunification base. I have spent this time immersing myself
             in the culture and language. I was working part-time while learning
-            Danish at the language school, which I recently completed (<span class="purple">PD3</span> exam
-            with <span class="pink">7</span> on average).
+            Danish at the language school, which I recently completed (<span
+              class="highlight"
+              >PD3</span
+            >
+            exam with <span class="accent">7</span> on average).
           </p>
           <p class="content__description-text">
             I hold a master’s degree in economics, but moving to another country
-            inspired me to consider <span class='pink'>a career change</span>. While working part-time and
-            completing Danish language courses, I explored my long-standing
-            interest in <span class='pink'>IT</span>. This led me to begin independently studying <span class="purple">web
-              development</span>.
+            inspired me to consider <span class="accent">a career change</span>.
+            While working part-time and completing Danish language courses, I
+            explored my long-standing interest in
+            <span class="accent">IT</span>. This led me to begin independently
+            studying <span class="highlight">web development</span>.
           </p>
         </div>
       </section>
@@ -73,17 +84,13 @@
         <h2 class="heading content__title">&lt;Education/&gt;</h2>
         <div class="content__description">
           <p class="content__description-text">
-            After independently exploring <span class='purple'>web development</span>, I realized the need
-            for a more structured approach to deepen my knowledge and skills.
-          </p>
-          <p class="content__description-text">
-            I am currently enrolled in the <span class="purple">Full-Stack Developer</span> program at
-            Yandex.Practicum, a well-regarded platform similar to <span class="purple">TripleTen</span>.
-            This program is equivalent to a second higher education degree in
-            Russia and culminates in a diploma of professional retraining.
-            Having completed the <span class='purple'>frontend</span> part of the course, I am now eager to
-            start applying my skills in a professional setting and contribute to
-            exciting projects.
+            I have just completed a professional retraining programme in
+            <span class="highlight">Full-Stack Development</span> - a
+            career-change course similar to a second degree. I'm currently
+            looking for a <span class="highlight">frontend internship</span> or
+            <span class="highlight">junior position</span> in Denmark. My
+            long-term goal is to grow into a full-time role in the tech
+            industry.
           </p>
         </div>
       </section>
@@ -92,44 +99,100 @@
         <div class="content__skills-icons">
           <ul class="content__icons-list">
             <li class="content__icons-item">
-              <img class="logo-img html-logo" src="./images/html-logo.svg" alt="HTML" />
+              <img
+                class="logo-img html-logo"
+                src="./images/html-logo.svg"
+                alt="HTML"
+              />
             </li>
             <li class="content__icons-item">
-              <img class="logo-img css-logo" src="./images/css-logo.svg" alt="CSS" />
+              <img
+                class="logo-img css-logo"
+                src="./images/css-logo.svg"
+                alt="CSS"
+              />
             </li>
             <li class="content__icons-item">
-              <img class="logo-img js-logo" src="./images/js-logo.svg" alt="JS" />
-            </li>
-            </li>
-            <li class="content__icons-item">
-              <img class="logo-img react-logo" src="./images/react-logo.svg" alt="React" />
-            </li>
-            <li class="content__icons-item">
-              <img class="logo-img git-logo" src="./images/git-logo.svg" alt="Git" />
+              <img
+                class="logo-img js-logo"
+                src="./images/js-logo.svg"
+                alt="JS"
+              />
             </li>
             <li class="content__icons-item">
-              <img class="logo-img npm-logo" src="./images/npm-logo.svg" alt="NPM" />
+              <img
+                class="logo-img react-logo"
+                src="./images/react-logo.svg"
+                alt="React"
+              />
             </li>
             <li class="content__icons-item">
-              <img class="logo-img ts-logo" src="./images/ts-logo.svg" alt="TS" />
+              <img
+                class="logo-img git-logo"
+                src="./images/git-logo.svg"
+                alt="Git"
+              />
             </li>
             <li class="content__icons-item">
-              <img class="logo-img github-logo" src="./images/github.svg" alt="GitHub" />
+              <img
+                class="logo-img npm-logo"
+                src="./images/npm-logo.svg"
+                alt="NPM"
+              />
             </li>
             <li class="content__icons-item">
-              <img class="logo-img redux-logo" src="./images/redux-logo.svg" alt="Redux" />
+              <img
+                class="logo-img ts-logo"
+                src="./images/ts-logo.svg"
+                alt="TS"
+              />
+            </li>
+            <li class="content__icons-item">
+              <img
+                class="logo-img github-logo"
+                src="./images/github.svg"
+                alt="GitHub"
+              />
+            </li>
+            <li class="content__icons-item">
+              <img
+                class="logo-img redux-logo"
+                src="./images/redux-logo.svg"
+                alt="Redux"
+              />
             </li>
           </ul>
         </div>
         <div class="content__description">
           <p class="content__description-text">
-            My skills include creating <span class='purple'>responsive interfaces</span> using <span
-              class='pink'>HTML</span>, <span class='pink'>CSS</span>,
-            and <span class='pink'>JavaScript/TypeScript</span>, developing applications with <span
-              class='pink'>React</span>, and
-            working with <span class='purple'>REST APIs</span>.
+            My skills include creating
+            <span class="highlight">responsive interfaces</span> using
+            <span class="accent">HTML</span>, <span class="accent">CSS</span>,
+            and <span class="accent">JavaScript/TypeScript</span>, developing
+            applications with <span class="accent">React</span>, and working
+            with <span class="highlight">REST APIs</span>.
           </p>
-          <p class="content__description-text"><span class='purple'>Tools:</span> Bash, Git, GitHub, Visual Studio Code </p>
+          <div class="content__description">
+            <ul class="skills__list">
+              <span class="highlight">Stack:</span>
+              <li class="skills__item">
+                HTML, CSS, Sass, JavaScript, TypeScript, React
+              </li>
+              <li class="skills__item">NPM, Webpack, Vite</li>
+              <li class="skills__item">REST APIs, Redux</li>
+              <li class="skills__item">MongoDB, PostgreSQL</li>
+              <li class="skills__item">Node.js, Nest.js</li>
+            </ul>
+          </div>
+          <div class="content__description">
+            <ul class="skills__list">
+              <span class="highlight">Tools:</span>
+
+              <li class="skills__item">
+                Terminal, Bash, Git, GitHub, Visual Studio Code
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="section content__projects" id="projects">
@@ -137,171 +200,302 @@
         <div class="content__projects-list">
           <div class="content__projects-card">
             <div class="project__container-img">
-              <img class="project-img" src="./images/projects/xr-place.jpg" alt="XR-Place">
+              <img
+                class="project-img"
+                src="./images/projects/xr-place.jpg"
+                alt="XR-Place"
+              />
             </div>
             <h3 class="heading card__title">XR-Place Landing page</h3>
             <ul class="card__description-list">
-              <li class="card__description-item bold pink">React, external APIs, responsive design, modular components</li>
+              <li class="card__description-item bold accent">
+                React, external APIs, responsive design, modular components
+              </li>
             </ul>
-            <p class="card__description-text"><span class="purple">Hackathon</span> where my team developed a website for a
-              company specializing in 3D apartment layouts. The project was built using <span class="pink">React</span> and involved integrating
-              <span class="pink">external APIs</span>, which allowed me to demonstrate my ability to collaborate effectively and deliver functional
-              solutions under tight deadlines.
+            <p class="card__description-text">
+              <span class="highlight">Hackathon</span> where my team developed a
+              website for a company specializing in 3D apartment layouts. The
+              project was built using <span class="accent">React</span> and
+              involved integrating <span class="accent">external APIs</span>,
+              which allowed me to demonstrate my ability to collaborate
+              effectively and deliver functional solutions under tight
+              deadlines.
             </p>
-            <p class="card__description-text">This project involved the development of a <span class="purple">responsive and interactive
-              interface</span> optimized for both mobile and desktop devices.
+            <p class="card__description-text">
+              This project involved the development of a
+              <span class="highlight"
+                >responsive and interactive interface</span
+              >
+              optimized for both mobile and desktop devices.
             </p>
           </div>
 
           <div class="content__projects-card">
             <div class="project__container-img">
-              <img class="project-img" src="./images/projects/stellar-burgers.jpg" alt="Stellar-Burgers">
+              <img
+                class="project-img"
+                src="./images/projects/stellar-burgers.jpg"
+                alt="Stellar-Burgers"
+              />
             </div>
 
             <h3 class="heading card__title">Stellar Burgers</h3>
             <ul class="card__description-list">
-            <li class="card__description-item bold pink">React, external APIs, responsive design, modular components, Redux</li>
-          </ul>
-            <p class="card__description-text">Educational project, where I implemented routing with <span class="pink">React Router</span> and set
-              up protected and dynamic routes. I integrated global state management using <span class="pink">Redux</span>, connecting it to key
-              pages. I developed an <span class="purple">authentication mechanism</span> to ensure secure user access and protected the personal
-              account route for authorized users.
+              <li class="card__description-item bold accent">
+                React, external APIs, responsive design, modular components,
+                Redux
+              </li>
+            </ul>
+            <p class="card__description-text">
+              Educational project, where I implemented routing with
+              <span class="accent">React Router</span> and set up protected and
+              dynamic routes. I integrated global state management using
+              <span class="accent">Redux</span>, connecting it to key pages. I
+              developed an
+              <span class="highlight">authentication mechanism</span> to ensure
+              secure user access and protected the personal account route for
+              authorized users.
             </p>
-            <p class="card__description-text"><span class="purple">User profile functionality</span> was
-              implemented to allow editing, saving, and canceling changes to user data. Navigation links highlight the
-              active route, including nested dynamic routes.
+            <p class="card__description-text">
+              <span class="highlight">User profile functionality</span> was
+              implemented to allow editing, saving, and canceling changes to
+              user data. Navigation links highlight the active route, including
+              nested dynamic routes.
             </p>
-            <a href="https://github.com/nastiasolo/stellar-burgers" target="_blank" class="project__link"><button
-                class="project__button">on Github</button></a>
+            <a
+              href="https://github.com/nastiasolo/stellar-burgers"
+              target="_blank"
+              class="project__link"
+              ><button class="project__button">on Github</button></a
+            >
           </div>
-          </a>
+
           <div class="content__projects-card">
             <div class="project__container-img">
-              <img class="project-img" src="./images/projects/web-shop.jpg" alt="Web-Shop">
+              <img
+                class="project-img"
+                src="./images/projects/web-shop.jpg"
+                alt="Web-Shop"
+              />
             </div>
             <h3 class="heading card__title">Web-Shop</h3>
             <ul class="card__description-list">
-              <li class="card__description-item bold pink">OOP, classes, external API </li>
+              <li class="card__description-item bold accent">
+                OOP,MVP, classes, external API
+              </li>
             </ul>
-            <p class="card__description-text">Educational project in which I developed a web store application
-              ("Web-shop") for web developers, following <span class="pink">Object-Oriented Programming (OOP)</span> principles. I implemented the
-              core functionality, including data management and state control across different screens.
+            <p class="card__description-text">
+              Educational project in which I developed a web store application
+              ("Web-shop") for web developers, following
+              <span class="accent">Object-Oriented Programming (OOP)</span>
+              principles. I implemented the core functionality, including data
+              management and state control across different screens.
             </p>
-            <p class="card__description-text">I designed and implemented data models as <span class="purple">classes</span>, encapsulating the
-              behavior and attributes of products, cart items, and orders. These models were integrated with <span class="pink">the API
-              client</span>, ensuring data such as product lists, cart contents, and order details were fetched, processed, and
-              displayed correctly.</p>
-            <a href="https://github.com/nastiasolo/web-larek-frontend" target="_blank" class="project__link"><button
-                class="project__button">on Github</button></a>
+            <p class="card__description-text">
+              I designed and implemented data models as
+              <span class="highlight">classes</span>, encapsulating the behavior
+              and attributes of products, cart items, and orders. These models
+              were integrated with <span class="accent">the API client</span>,
+              ensuring data such as product lists, cart contents, and order
+              details were fetched, processed, and displayed correctly.
+            </p>
+            <a
+              href="https://github.com/nastiasolo/web-larek-frontend"
+              target="_blank"
+              class="project__link"
+              ><button class="project__button">on Github</button></a
+            >
           </div>
           <div class="content__projects-card">
             <div class="project__container-img">
-              <img class="project-img" src="./images/projects/mesto.jpg" alt="Mesto">
+              <img
+                class="project-img"
+                src="./images/projects/mesto.jpg"
+                alt="Mesto"
+              />
             </div>
             <h3 class="heading card__title">Mesto</h3>
             <ul class="card__description-list">
-              <li class="card__description-item bold pink">JavaScript, DOM manipulation, API integration, Webpack </li>
+              <li class="card__description-item bold accent">
+                JavaScript, DOM manipulation, API integration, Webpack
+              </li>
             </ul>
-            <p class="card__description-text">This educational project is an <span class="purple">interactive web page</span> called "Mesto," where
-              users can add, like, and delete photos.
+            <p class="card__description-text">
+              This educational project is an
+              <span class="highlight">interactive web page</span> called
+              "Mesto," where users can add, like, and delete photos.
             </p>
-            <p class="card__description-text">I implemented dynamic photo card creation by cloning templates, setting
-              content, and adding event listeners for liking and deleting cards. I added <span class="purple">form validation</span> to ensure proper
-              input handling and connected the interface to an <span class="pink">external API</span> to sync user data, cards, and likes. The
-              project infrastructure was built with <span class="pink">Webpack</span>.</p>
+            <p class="card__description-text">
+              I implemented dynamic photo card creation by cloning templates,
+              setting content, and adding event listeners for liking and
+              deleting cards. I added
+              <span class="highlight">form validation</span> to ensure proper
+              input handling and connected the interface to an
+              <span class="accent">external API</span> to sync user data, cards,
+              and likes. The project infrastructure was built with
+              <span class="accent">Webpack</span>.
             </p>
-            <a href="https://nastiasolo.github.io/mesto-project-ff/" target="_blank" class="project__link"><button
-                class="project__button">visit
-                Website</button></a>
+
+            <a
+              href="https://nastiasolo.github.io/mesto-project-ff/"
+              target="_blank"
+              class="project__link"
+              ><button class="project__button">visit Website</button></a
+            >
           </div>
           <div class="content__projects-card">
             <div class="project__container-img">
-              <img class="project-img" src="./images/projects/Slozhno.jpg" alt="Slozhno">
+              <img
+                class="project-img"
+                src="./images/projects/Slozhno.jpg"
+                alt="Slozhno"
+              />
             </div>
             <h3 class="heading card__title">No focus</h3>
             <ul class="card__description-list">
-              <li class="card__description-item bold pink">HTML, CSS (Grid layout), CSS variables, JavaScript </li>
+              <li class="card__description-item bold accent">
+                HTML, CSS (Grid layout), CSS variables, JavaScript
+              </li>
             </ul>
-            <p class="card__description-text">A responsive website with <span class="purple">light and dark themes</span>.
+            <p class="card__description-text">
+              A responsive website with
+              <span class="highlight">light and dark themes</span>.
             </p>
-            <p class="card__description-text">Colors, fonts, text sizes, and spacing were managed using <span class="pink">CSS variables</span>,
-              allowing efficient theme switching through variable overrides.
+            <p class="card__description-text">
+              Colors, fonts, text sizes, and spacing were managed using
+              <span class="accent">CSS variables</span>, allowing efficient
+              theme switching through variable overrides.
             </p>
-            <a href="https://github.com/nastiasolo/slozhno-sosredotochitsya" target="_blank"
-              class="project__link"><button
-              class="project__button">on Github</button></a>
+            <a
+              href="https://github.com/nastiasolo/slozhno-sosredotochitsya"
+              target="_blank"
+              class="project__link"
+              ><button class="project__button">on Github</button></a
+            >
           </div>
           <div class="content__projects-card">
             <div class="project__container-img">
-              <img class="project-img" src="./images/projects/Okno.jpg" alt="Okno">
+              <img
+                class="project-img"
+                src="./images/projects/Okno.jpg"
+                alt="Okno"
+              />
             </div>
             <h3 class="heading card__title">Window</h3>
             <ul class="card__description-list">
-              <li class="card__description-item bold pink">CSS</li>
+              <li class="card__description-item bold accent">CSS</li>
             </ul>
-            <p class="card__description-text">I developed <span class="pink">CSS</span> for a <span class="purple">functional application</span>, focusing on integrating styles
-              into a partially completed module to enhance its design and usability.
+            <p class="card__description-text">
+              I developed <span class="accent">CSS</span> for a
+              <span class="highlight">functional application</span>, focusing on
+              integrating styles into a partially completed module to enhance
+              its design and usability.
             </p>
-            <a href="https://github.com/nastiasolo/posmotri_v_okno" target="_blank" class="project__link"><button
-              class="project__button">on
-              Github</button></a>
+            <a
+              href="https://github.com/nastiasolo/posmotri_v_okno"
+              target="_blank"
+              class="project__link"
+              ><button class="project__button">on Github</button></a
+            >
           </div>
           <div class="content__projects-card">
             <div class="project__container-img">
-              <img class="project-img" src="./images/projects/Ono.jpg" alt="Ono">
+              <img
+                class="project-img"
+                src="./images/projects/Ono.jpg"
+                alt="Ono"
+              />
             </div>
             <h3 class="heading card__title">Do you need it</h3>
             <ul class="card__description-list">
-              <li class="card__description-item bold pink">HTML, CSS </li>
+              <li class="card__description-item bold accent">HTML, CSS</li>
             </ul>
-            <p class="card__description-text">A <span class="purple">responsive landing page</span> for an item auction. The design was
-              optimized for various screen sizes to ensure a seamless user experience across devices.
+            <p class="card__description-text">
+              A <span class="highlight">responsive landing page</span> for an
+              item auction. The design was optimized for various screen sizes to
+              ensure a seamless user experience across devices.
             </p>
-            <a href="https://github.com/nastiasolo/ono-tebe-nado" target="_blank" class="project__link"><button
-              class="project__button">on Github</button></a>
+            <a
+              href="https://github.com/nastiasolo/ono-tebe-nado"
+              target="_blank"
+              class="project__link"
+              ><button class="project__button">on Github</button></a
+            >
           </div>
           <div class="content__projects-card">
             <div class="project__container-img">
-              <img class="project-img" src="./images/projects/Karti.jpg" alt="Karti">
+              <img
+                class="project-img"
+                src="./images/projects/Karti.jpg"
+                alt="Karti"
+              />
             </div>
             <h3 class="heading card__title">Cards will tell</h3>
             <ul class="card__description-list">
-              <li class="card__description-item bold pink">HTML, CSS, JavaScript </li>
+              <li class="card__description-item bold accent">
+                HTML, CSS, JavaScript
+              </li>
             </ul>
-            <p class="card__description-text">Educational project in which I implemented a theme toggle feature for a web
-              page using <span class="pink">CSS variables</span> and <span class="pink">JavaScript</span>. The functionality involved <span class="purple">dynamically adding</span> or removing the
-              .theme_dark class on the &lt;body&gt; element to switch between light and dark themes.
-            </p>
+            <p class="card__description-text">
+              Educational project in which I implemented a theme toggle feature
+              for a web page using <span class="accent">CSS variables</span> and
+              <span class="accent">JavaScript</span>. The functionality involved
+              <span class="highlight">dynamically adding</span> or removing the
+              .theme_dark class on the &lt;body&gt; element to switch between
+              light and dark themes.
             </p>
           </div>
         </div>
       </section>
       <section class="section content__hobbies" id="hobbies">
         <h2 class="heading content__title">&lt;Hobbies/&gt;</h2>
+
         <ul class="content__hobbies-list">
           <li class="content__hobbies-item">
             <img class="logo-img yoga" src="./images/yoga.svg" alt="Yoga" />
           </li>
           <li class="content__hobbies-item">
-            <img class="logo-img puzzle" src="./images/puzzle.svg" alt="Puzzle" />
+            <img
+              class="logo-img puzzle"
+              src="./images/puzzle.svg"
+              alt="Puzzle"
+            />
           </li>
           <li class="content__hobbies-item">
-            <img class="logo-img quiz" src="./images/test-quiz.svg" alt="Quiz" />
+            <img
+              class="logo-img quiz"
+              src="./images/test-quiz.svg"
+              alt="Quiz"
+            />
+          </li>
+          <li class="content__hobbies-item"></li>
+          <li class="content__hobbies-item">
+            <img
+              class="logo-img cinema"
+              src="./images/cinema.svg"
+              alt="Cinema"
+            />
           </li>
           <li class="content__hobbies-item">
-          <li class="content__hobbies-item">
-            <img class="logo-img cinema" src="./images/cinema.svg" alt="Cinema" />
+            <img
+              class="logo-img video-games"
+              src="./images/video-game-controller.svg"
+              alt="Video games"
+            />
           </li>
           <li class="content__hobbies-item">
-            <img class="logo-img video-games" src="./images/video-game-controller.svg" alt="Video games" />
-          </li>
-          <li class="content__hobbies-item">
-            <img class="logo-img board-games" src="./images/game-board.svg" alt="Board games" />
+            <img
+              class="logo-img board-games"
+              src="./images/game-board.svg"
+              alt="Board games"
+            />
           </li>
         </ul>
+
         <div class="content__description">
           <p class="content__description-text">
-            I love yoga, puzzles, quizes, good movies, video games and board games!
+            I love yoga, puzzles, quizes, good movies, video games and board
+            games!
           </p>
         </div>
       </section>
@@ -313,25 +507,40 @@
             <a href="tel:+4550413547">50 41 35 47</a>
           </div> -->
           <div class="content__contacts_container">
-            <img class="contact-img email" src="./images/email.svg" alt="email" />
+            <img
+              class="contact-img email"
+              src="./images/email.svg"
+              alt="email"
+            />
             <a href="mailto:ag.solodova@gmail.com">ag.solodova@gmail.com</a>
           </div>
           <div class="content__contacts_container">
-            <img class="contact-img address" src="./images/address.svg" alt="Address" />
+            <img
+              class="contact-img address"
+              src="./images/address.svg"
+              alt="Address"
+            />
             <address>2720 Vanløse, DK</address>
           </div>
           <!-- <div class="content__contacts_container"> -->
-            <a href="https://github.com/nastiasolo" class="contacts__link-github" target="_blank">
+          <a
+            href="https://github.com/nastiasolo"
+            class="contacts__link-github"
+            target="_blank"
+          >
             <button class="contact__button">
-            <img class="contact-img github-contact" src="./images/github.svg" alt="Github" />
-          GitHub: nastiasolo
-          </button>
-        </a>
+              <img
+                class="contact-img github-contact"
+                src="./images/github.svg"
+                alt="Github"
+              />
+              GitHub: nastiasolo
+            </button>
+          </a>
           <!-- </div> -->
         </div>
       </section>
     </main>
     <script src="./scripts/script.js"></script>
   </body>
-
-  </html>
+</html>
